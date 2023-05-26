@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+ }
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+.imgba{
+    background-image: url(../img/ba1.jpg);
+   
+    height: 40rem;
+    background-size: cover;
+    /*max-height: 150rem;*/
+     box-sizing: border-box;
+     position: relative;
+     overflow: auto;
+    
+}
+#oscurece:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.55);
+}
+ .end{
+    text-align: right;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 22%;
+    right: 8%;
+ }
+.absoluta{
+    position: absolute;
+    
+}
+.relativa{
+    position: relative;
+
+}
+.end2{
+    position: absolute;
+    bottom: 15%;
+    right: 8%;
+ }
+.boton1{
+    border-color: white;
+    background: none;
+    color: white;
+}
+.tamaño1{
+    height: 7rem;
+   
+}
+.tamaño2{
+width :170%;    
+/*margin: 0 auto;*/
+}
+.exito{
+    color: green;
+    font-weight: bold;
+}
+.tamletra{
+font-size: 1rem;
+width: max-content;/*?*/
+}
+.textcent{
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
+}
+.negrita2{
+    font-weight: 500;
+}
+.tamletra2{
+    font-size: 2rem;
+
+}
+.margen1{
+    margin-left: 46%;
+    padding-top: 10;
+}
+.rojo{
+    background-color: red;
+}
+.borde1{
+    border: 3px solid;
+    border-color: rgba(37, 110, 255, 0.314);
+}
+.borde2{
+    border: 3px solid;
+    border-color: rgba(30, 128, 51, 0.314);
+}
+.borde3{
+    border: 3px solid;
+    border-color: rgba(160, 157, 16, 0.314);
+}
+.img2{
+    /*overflow: auto;*/
+  /* object-fit: cover;*/
+  width:100%;
+  /*height:100%;*/
+ 
+  
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+  }
+
+.tamboton{
+    --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .65rem;
+}
+.img3{
+   width:150%;
+}
+.sinsalto{
+    /*display: inline;*/
+   white-space: nowrap;
+   /* word-wrap: break-word;*/
+}
+.boton2{
+    border-color: rgba(255, 255, 255, 0.7);
+    background: none;
+    color:  rgba(255, 255, 255, 0.7) ;
+}
+.coloratenuado{
+  color:  rgba(255, 255, 255, 0.7);
+}
+.punteado{
+/*text-decoration-style: dotted;*/
+border-bottom: 2px dotted;
+text-decoration:none;
+}
+.verdepalido{
+     background-color: rgb(128, 0, 64);
+}
+.btn-bd-primary {
+    --bs-btn-font-weight:600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg:rgb(150, 201, 62);
+   --bs-btn-border-color:none;
+   font-size: 1.2rem;
+   --bs-btn-hover-bg:rgb(74, 156, 39) 
+};
+   .tamletra3{
+
+    font-size: 5rem;
+    background-color: blueviolet;
+
+   }
+   .colornavbar{
+    background-color: rgb(29, 67, 88);
+   }
+   
+  
